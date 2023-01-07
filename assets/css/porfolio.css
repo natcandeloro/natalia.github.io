@@ -1,8 +1,9 @@
 header {
     height: 70px;
+    width: 100vw;
+    padding-right: 20px;
     background-color: #E1BEE7;
-}
-.encabezado {
+    position: fixed;
     display: flex;
     justify-content: end;
 }
@@ -13,11 +14,15 @@ header {
 }
 
 footer {
-    background-color: #E1BEE7;
+    background-color: #666;
+    color: #fff;
     text-align: center;
+    padding: 5px;
 }
+
 h1 {
     text-align: center;
+    padding: 10px;
 }
 
 .uno {
@@ -74,12 +79,18 @@ section {
 }
 
 .row {
-    align-items: center
+    align-items: center;
+    margin: 50px;
 }
 
 .tres {
-    background-color: #f3e5f5;
-    height: 700px;
+    height: 500px;
+}
+
+.ver {
+    border: none;
+    border-radius: 40%;
+    color: #616161;
 }
 
 /*Hover*/
@@ -154,6 +165,14 @@ figure {
 
 .acapa {
     color: #fff;
+}
+
+.habilidades { 
+    border: none;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
 }
 
 
